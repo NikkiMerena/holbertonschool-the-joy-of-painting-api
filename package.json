@@ -1,0 +1,36 @@
+{
+  "name": "holbertonschool-the-joy-of-painting-api",
+  "version": "1.0.0",
+  "description": "placeholder",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikkiMerena/holbertonschool-the-joy-of-painting-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikkiMerena/holbertonschool-the-joy-of-painting-api/issues"
+  },
+  "homepage": "https://github.com/NikkiMerena/holbertonschool-the-joy-of-painting-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.1",
+    "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
