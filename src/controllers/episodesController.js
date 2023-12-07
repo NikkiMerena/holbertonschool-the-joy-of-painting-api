@@ -1,4 +1,5 @@
 // episodesController.js
+const db = require('../db');
 const episodesService = require('../services/episodesService');
 
 exports.getFilteredEpisodes = async (req, res) => {

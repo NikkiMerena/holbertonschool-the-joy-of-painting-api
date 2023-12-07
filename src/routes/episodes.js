@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const knex = require("../../database");
+const knex = require("../database");
 
 // Lookup object for month names to month numbers
 const monthLookup = {
